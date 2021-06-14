@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+dash = ">=0.41.0"
+gunicorn = ">=19.8.1"
+numpy = ">=1.16.1"
+dash-daq = "==0.1.4"
+pyserial = ">=3.4"
+PyVISA = ">=1.9.1"
+plotly = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

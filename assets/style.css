@@ -1,0 +1,35 @@
+#main-page {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "appheader appheader appheader"
+    "graph graph graph"
+    "selected cursors gate";
+}
+
+.appheader {
+    grid-area: appheader;
+}
+
+.graph {
+    grid-area: graph
+};
+
+.selected {
+    grid-area: select
+};
+
+.cursors {
+    grid-area: cursors;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: baseline !important;
+    margin: 10px 0px !important;
+};
+
+.gate {
+    grid-area: gate
+};
+
